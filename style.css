@@ -1,0 +1,528 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FBFFE4;
+}
+
+/* Header */
+header {
+    padding: 0 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .header-logo img {
+    width: 180px;
+}
+
+header .header-navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2.25rem;
+}
+
+header .header-navbar ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+header .header-navbar ul li a:hover {
+    background-color: #B3D8A8;
+    color: #FBFFE4;
+}
+
+.header-log-in-and-sign-up-section {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 20px;
+}
+
+.header-log-in-and-sign-up-section  a.log-in-button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #000;
+    color: #000;
+    padding: 10px 16px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header-log-in-and-sign-up-section  a.log-in-button:hover {
+    background-color: #B3D8A8;
+    border: 2px solid #B3D8A8;
+    color: #FBFFE4;
+}
+
+.header-log-in-and-sign-up-section  a.sign-up-button {
+    background-color: #B3D8A8;
+    border-radius: 10px;
+    border: 2px solid #B3D8A8;
+    color: #FBFFE4;
+    padding: 10px 16px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header-log-in-and-sign-up-section  a.sign-up-button:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+
+/* Hero */
+.safira-hijab-hero-section {
+    margin-inline: 50px;
+    margin-block-start: 20px;
+    margin-block-end: 60px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #A3D1C6;
+    height: 80vh;
+}
+
+.safira-hijab-hero-section .hero-section-image-and-content-section {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(32px);
+}
+
+.safira-hijab-hero-section .hero-section-image-and-content-section
+.hero-section-image {
+    width: 45%;
+}
+
+.hero-section-image img {
+    width: 525px;
+}
+
+.safira-hijab-hero-section .hero-section-image-and-content-section
+.hero-section-content {
+    width: 450px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.safira-hijab-hero-section .hero-section-image-and-content-section
+.hero-section-content h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #FBFFE4;
+}
+
+.safira-hijab-hero-section .hero-section-image-and-content-section
+.hero-section-content p {
+    margin-bottom: 20px;
+}
+
+.safira-hijab-hero-section .hero-section-image-and-content-section
+.hero-section-content a {
+    background-color: transparent;
+    border-radius: 10px;
+    color: #FBFFE4;
+    padding: 10px 16px;
+    border: 1px solid #FBFFE4;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.safira-hijab-hero-section .hero-section-image-and-content-section
+.hero-section-content a:hover {
+    background-color: #B3D8A8;
+    border: 1px solid #B3D8A8;
+    color: black;
+}
+
+/* Brand Section */
+.safira-hijab-online-shop-partners {
+    background-color: #ffd0d0;
+    padding: 20px 40px;
+    text-align: center;
+    color: #653bff;
+    margin-block-end: 60px;
+}
+
+.safira-hijab-online-shop-partners h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.safira-hijab-online-shop-partners h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.safira-hijab-online-shop-partners div {
+    margin-bottom: 30px;
+}
+
+.safira-hijab-online-shop-partners .local-brand-list,
+.safira-hijab-online-shop-partners .international-brands-list {
+    display: flex;
+    justify-content: center;
+}
+
+.safira-hijab-online-shop-partners img {
+    width: 150px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+/* Why Safira Hijab ? */
+.why-safira-hijab-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-block: 50px;
+}
+
+.why-safira-hijab-section .why-safira-hijab-content {
+    width: 70%;
+    font-size: 20px;
+}
+
+.why-safira-hijab-section .why-safira-hijab-image {
+    width: 30%;
+}
+
+.why-safira-hijab-section .why-safira-hijab-image img {
+    width: 300px;
+}
+
+/* Product List */
+.safira-hijab-our-product-section {
+    padding: 75px 80px;
+}
+
+.safira-hijab-our-product-section h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.safira-hijab-our-product-section .product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.safira-hijab-our-product-section .product-list .product {
+    width: 30%;
+    margin-block-end: 25px;
+}
+
+
+.safira-hijab-our-product-section .product-list .product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.safira-hijab-our-product-section .product-list .product .product-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block-start: 10px;
+    padding: 0 2px;
+    align-items: center;
+}
+
+.safira-hijab-our-product-section .product-list .product .product-content a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.safira-hijab-our-product-section .product-list .product .product-content a:hover {
+    color: #B3D8A8;
+}
+
+/* Testimoni Pelanggan */
+.safira-hijab-testimoni-pelanggan-section {
+    padding: 40px 60px;
+    background-color: #B3D8A8;
+    margin-block: 20rem;
+}
+
+.safira-hijab-testimoni-pelanggan-section h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-block-end: 50px;
+}
+
+.safira-hijab-testimoni-pelanggan-section .testimoni-pelanggan-list  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1;
+    gap: 5%;
+    row-gap: 25px;
+}
+
+.testimoni-pelanggan-list .pelanggan {
+    width: 30%;
+    background-color: #FBFFE4;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+.pelanggan .foto-nama-asal-dan-umur {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+}
+
+.pelanggan .foto-nama-asal-dan-umur img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.pelanggan .testimoni-text {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+/* Special Promo */
+.safira-hijab-big-sale-promo-section {
+    padding: 40px 60px;
+    background-color: #ffd0d0;
+    margin-block: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-content {
+    width: 45%;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-content
+.big-sale-promo-content-text {
+    margin-block-end: 20px;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-content h1 {
+    font-size: 4.25rem;
+    font-weight: 400;
+    margin-block-end: 20px;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-content p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-block-end: 20px;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-content i {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-content a {
+    background-color: #B3D8A8;
+    border-radius: 10px;
+    color: #FBFFE4;
+    padding: 10px 16px;
+    border: 1px solid #B3D8A8;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-block-end: 50px;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-content a:hover {
+    background-color: #ffd0d0;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-image {
+    width: 50%;
+}
+
+.safira-hijab-big-sale-promo-section .big-sale-promo-image img {
+    width: 350px;
+    transform: translateX(100px) translateY(58px);
+}
+
+/* Footer Section */
+footer {
+    height: fit-content;
+    background-color: #B3D8A8;
+}
+
+footer .footer-content {
+    padding: 40px 50px;
+    display: flex;
+    gap: 5%;
+}
+
+footer .footer-content .footer-logo-social-media-and-address {
+    width: 20%;
+}
+
+footer .footer-content .footer-logo-social-media-and-address div {
+    margin-block-end: 25px;
+}
+
+footer .footer-content .footer-logo-social-media-and-address ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-block-end: 25px;
+}
+
+footer .footer-content .footer-logo-social-media-and-address ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    padding: 3px 8px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #FBFFE4;
+}
+
+footer .footer-content .footer-logo-social-media-and-address ul li a:hover {
+    background-color: #B3D8A8;
+    color: #FBFFE4;
+    border: 1px solid #FBFFE4;
+}
+
+footer .footer-content .footer-logo-social-media-and-address .address h3 {
+    font-weight: 400;
+}
+
+footer .footer-content .footer-logo-social-media-and-address .address p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer .footer-content .footer-download-app-section {
+    width: 20%;
+}
+
+footer .footer-content .footer-download-app-section h3,
+footer .footer-content .footer-download-app-section p {
+    margin-block-end: 25px;
+}
+
+footer .footer-content .footer-download-app-section .footer-download-app {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter {
+    width: 50%;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter 
+.footer-navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter 
+.footer-navbar-list .list ul {
+    list-style: none;
+    margin-block-start: 5px;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter 
+.footer-navbar-list .list ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter 
+.footer-navbar-list .list ul li a:hover {
+    color: #FBFFE4;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter 
+.footer-newsletter {
+    margin-block-start: 30px;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter
+.footer-newsletter form {
+    display: flex;
+    gap: 10px;
+    margin-block-start: 10px;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter
+.footer-newsletter form input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    width: 50%;
+    font-size: 16px;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter
+.footer-newsletter form input[type="email"]:focus {
+    outline: none;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter
+.footer-newsletter form button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #FBFFE4;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .footer-content .footer-navbar-list-and-newsletter
+.footer-newsletter form button:hover {
+    background-color: #B3D8A8;
+    color: #FBFFE4;
+    border: 1px solid #FBFFE4;
+}
+
+footer .footer-copyright {
+    background-color: #ffd0d0;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+}
