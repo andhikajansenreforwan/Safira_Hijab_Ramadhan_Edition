@@ -139,9 +139,9 @@ header .header-navbar ul li a:hover {
 .hero-section-content a {
     background-color: transparent;
     border-radius: 10px;
-    color: #FBFFE4;
+    color: #000;
     padding: 10px 16px;
-    border: 1px solid #FBFFE4;
+    border: 1px solid #000;
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
