@@ -74,7 +74,7 @@ header .header-navbar ul li a:hover {
 .header-log-in-and-sign-up-section  a.sign-up-button {
     background-color: #B3D8A8;
     border-radius: 10px;
-    border: 2px solid #B3D8A8;
+    border: 2px solid #ffd0d0;
     color: #FBFFE4;
     padding: 10px 16px;
     font-weight: 500;
@@ -217,7 +217,7 @@ header .header-navbar ul li a:hover {
 
 /* Product List */
 .safira-hijab-our-product-section {
-    padding: 75px 80px;
+    padding: 30px 80px;
 }
 
 .safira-hijab-our-product-section h2 {
