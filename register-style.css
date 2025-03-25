@@ -1,0 +1,213 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    display: flex;
+    background: #FBFFE4;
+}
+
+/* Register Form */
+.register-form {
+    width: 45%;
+    height: 100%;
+    padding: 25px 50px;
+}
+
+.register-form .register-form-header {
+    margin-bottom: 15px;
+}
+
+.register-form .register-form-header h1 {
+    font-weight: 400;
+}
+
+/* - Name Section */
+.register-form form .name-section {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+}
+
+.register-form form .name-section div {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    row-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.register-form form .name-section div input {
+    padding: 10px;
+    border: 1px solid #B3D8A8;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* - Email */
+.register-form form .email-section input {
+    padding: 10px;
+    border: 1px solid #B3D8A8;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* - Password */
+.register-form form .password-section div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.register-form form .password-section div input {
+    padding: 10px;
+    border: 1px solid #B3D8A8;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    margin-block: 10px;
+}
+
+.register-form form .password-section .password i {
+    font-size: 13px;
+    color: darkgray;
+}
+
+/* - Phone Number and Tanggal Lahir */
+.register-form form .phone-number-and-birthdate {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+}
+
+.register-form form .phone-number-and-birthdate div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 47%;
+}
+
+.register-form form .phone-number-and-birthdate div input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #B3D8A8;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-block: 10px;
+}
+
+/* Terms and Condition and Register */
+.register-form form .terms-conditions-register-section {
+    margin-top: 15px;
+}
+
+.register-form form .terms-conditions-register-section
+.terms-and-conditions a {
+    text-decoration: none;
+    color: black;
+}
+
+.register-form form .terms-conditions-register-section
+.terms-and-conditions a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button {
+    margin-top: 40px;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button button.register {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #B3D8A8;
+    border: 1px solid transparent;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-block-end: 15px;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button button.register:hover {
+    background: transparent;
+    border: 1px solid #B3D8A8;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button .social-media-login p {
+    text-align: center;
+    margin-block-end: 10px;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button .social-media-button {
+    margin-block-end: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button .social-media-button button {
+    width: 47%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #B3D8A8;
+    border: 1px solid transparent;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button .social-media-button button:hover {
+    background: transparent;
+    border: 1px solid #B3D8A8;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button .already-log-in p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button .already-log-in p a {
+    text-decoration: none;
+    color: #000;
+}
+
+.register-form form .terms-conditions-register-section
+.register-button .already-log-in p a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Register Banner Section */
+.register-banner-section {
+    width: 55%;
+}
+
+.register-banner-section img {
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.register-banner-section .inara-rusli {
+    transform: translateY(-1000px) translateX(20px);
+}

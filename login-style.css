@@ -114,7 +114,7 @@ form .login-form-group input {
     font-size: 18px;
     cursor: pointer;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     transition: all 0.3s ease;
 }
 
@@ -125,7 +125,7 @@ form .login-form-group input {
 
 .login-form-group .login-button p {
     font-size: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .login-form-group .login-button .login-social-media 
@@ -144,13 +144,23 @@ form .login-form-group input {
     border: 1px solid transparent;
     font-size: 14px;
     cursor: pointer;
-    width: 48%;
-    margin-bottom: 15px;
     transition: all 0.3s ease;
+    width: 48%;
+    margin-bottom: 10px;
 }
 
 .login-form-group .login-button .login-social-media
 .social-media-icons button:hover {
     background: transparent;
     border: 1px solid #B3D8A8;
+}
+
+.login-form-group .login-button p a {
+    text-decoration: none;
+    color: #000;
+}
+
+.login-form-group .login-button p a:hover {
+    text-decoration: underline;
+    color: blue;
 }

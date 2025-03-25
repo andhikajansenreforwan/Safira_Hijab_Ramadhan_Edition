@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safira Hijab - Register</title>
+    <!-- Register CSS Style -->
+    <link rel="stylesheet" href="register-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+</head>
+<body>
+    <!-- Register Form -->
+    <div class="register-form">
+        <div class="register-form-header">
+            <h1>Let's get started</h1>
+            <p>Register Here</p>
+        </div>
+
+        <form action="">
+                <div class="name-section">
+                    <div class="first-name">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" 
+                        placeholder="First Name" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" 
+                        placeholder="Last Name" required>
+                    </div>
+                </div>
+
+                <div class="email-section">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" 
+                    placeholder="example : inararusli@gmail.com" required>
+                </div>
+
+                <div class="password-section">
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password"
+                        placeholder="Minimum 8 Characters" required>
+                        <i>*Kombinasikan denga Angka, huruf besar, dan 
+                        simbol (&,*,%,$, etc)
+                        </i>
+                    </div>
+
+                    <div class="confirm-password">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" name="confirm-password" 
+                        id="confirm-password" placeholder="" required>
+                    </div>
+                </div>
+
+                <div class="phone-number-and-birthdate">
+                    <div class="phone-number">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" name="phone-number" id="phone-number"
+                        placeholder="+62xxxxxxxxxx" required>
+                    </div>
+
+                    <div class="birthdate">
+                        <label for="tanggal-lahir">Tanggal Lahir</label>
+                        <input type="date" name="tanggal-lahir" id="tanggal-lahir"
+                        value="1993-02-19">
+                    </div>
+                </div>
+
+                <div class="terms-conditions-register-section">
+                    <div class="terms-and-conditions">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <a href="">Terms and Conditions</a>
+                    </div>
+
+                    <div class="register-button">
+                        <button type="submit" class="register">Register</button>
+
+                        <div class="social-media-login">
+                            <p>or Sign Up with</p>
+
+                            <div class="social-media-button">
+                                <button type="button"><i class="fab fa-facebook"></i> Facebook</button>
+                                <button type="button"><i class="fab fa-google"></i> Google</button>
+                            </div>
+                        </div>
+
+                        <div class="already-log-in">
+                            <p>Already have Account ? <a href="#">Login Here</a></p>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+
+    <!-- Register Banner -->
+    <div class="register-banner-section">
+        <img src="img/Inara Rusli.jpeg" alt="">
+
+        <div class="inara-rusli">
+            <h1>Inara Rusli</h1>
+            <p>CEO of Safira Hijab</p>
+        </div>
+    </div>
+</body>
+</html>
