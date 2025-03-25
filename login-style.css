@@ -33,6 +33,7 @@ body {
     background: #B3D8A8;
     padding: 10px 20px;
     border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .login-half-picture .login-picture-text h1 {
