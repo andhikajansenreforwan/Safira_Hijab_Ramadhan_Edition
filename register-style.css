@@ -15,7 +15,7 @@ body {
 
 /* Register Form */
 .register-form {
-    width: 50%;
+    width: 47%;
     height: 100%;
     padding: 25px 50px;
 }
@@ -198,6 +198,14 @@ body {
 }
 
 /* Register Banner */
+.register-banner {
+    width: 47%;
+    height: 100vh;
+}
+
 .register-banner img {
+    display: block;
+    margin-left: auto;
+    width: 600px;
     height: fit-content;
 }
